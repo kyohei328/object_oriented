@@ -1,4 +1,6 @@
-class StockOf100yen
+require './coin'
+
+class CashBox
     def initialize(quantity)
         @number_of_100yen = [Coin::ONE_HUNDRED] * quantity
     end
@@ -22,9 +24,9 @@ class StockOf100yen
     def take_out_change
         coins = []
         4.times do
-          coins.push(pop)
+            coins.push(pop)
         end
         coins
-      end
+    end
 
 end
