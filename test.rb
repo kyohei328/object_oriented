@@ -1,8 +1,7 @@
 require 'test/unit'
 require './vending_machine'
-# require './drink'
-require './drink_type'
-require './coin'
+require './drink/drink_type'
+require './money/coin'
 
 
 class VendingMachineTest < Test::Unit::TestCase

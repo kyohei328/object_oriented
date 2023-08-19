@@ -1,4 +1,4 @@
-require './coin'
+require './money/coin'
 
 class CashBox
     def initialize(quantity)
