@@ -1,4 +1,4 @@
-require './stock'
+require './stock/stock'
 
 class Storage
     def initialize

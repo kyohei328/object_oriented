@@ -1,6 +1,6 @@
-require './drink'
-require './storage'
-require './coin_mech'
+require './drink/drink'
+require './stock/storage'
+require './money/coin_mech'
 
 class VendingMachine
 
